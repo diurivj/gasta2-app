@@ -102,8 +102,10 @@ export default function Index() {
                       <div className='flex items-center justify-center'>
                         {!actionData ? (
                           <EnvelopeIcon className='h-10 w-10 text-white' />
-                        ) : (
+                        ) : actionData.msg === 'ok' ? (
                           <CheckCircleIcon className='h-10 w-10 text-white' />
+                        ) : (
+                          <XMarkIcon className='h-10 w-10 text-white' />
                         )}
                       </div>
                       <div className='mt-3 text-center sm:mt-5'>
