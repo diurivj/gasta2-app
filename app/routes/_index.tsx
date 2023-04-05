@@ -60,14 +60,14 @@ export default function Index() {
   return (
     <main className='h-full bg-black text-white'>
       <section className='mx-auto flex h-full max-w-7xl flex-col items-center justify-center px-4 sm:px-6 lg:px-8'>
-        <p className='font-thin leading-loose text-gray-500'>Gasta2</p>
+        <p className='font-thin leading-loose text-gray-300'>Gasta2</p>
         <h1 className='text-6xl font-extrabold tracking-tighter lg:text-8xl'>
           Coming soon.
         </h1>
         <button
           type='button'
           onClick={() => setOpen(true)}
-          className='mt-10 rounded-md bg-indigo-500 px-3.5 py-2.5 text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500'
+          className='mt-10 rounded-md bg-indigo-700 px-3.5 py-2.5 text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600'
         >
           Join the waitlist
         </button>
