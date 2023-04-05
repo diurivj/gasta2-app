@@ -20,7 +20,12 @@ export const headers: HeadersFunction = () => ({
 });
 
 export const meta: V2_MetaFunction = () => {
-  return [{ title: 'Gasta2' }];
+  return [
+    { title: 'Gasta2' },
+    {
+      content: 'An application to manage expenses with your partner.'
+    }
+  ];
 };
 
 export async function action({ request }: DataFunctionArgs) {
